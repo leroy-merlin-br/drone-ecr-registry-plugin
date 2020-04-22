@@ -3,7 +3,7 @@ name: drone-ecr-registry-plugin
 
 workspace:
   base: /go
-  path: src/github.com/davidbyttow/drone-ecr-registry-plugin
+  path: src/github.com/leroy-merlin-br/drone-ecr-registry-plugin
 
 steps:
 - name: test
@@ -28,7 +28,7 @@ steps:
 - name: publish
   image: plugins/docker
   settings:
-    repo: davidbyttow/drone-ecr-registry-plugin
+    repo: leroymerlinbr/drone-ecr-registry-plugin
     username:
       from_secret: docker_username
     password:
