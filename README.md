@@ -1,3 +1,5 @@
+[![Build Status](https://cloud.drone.io/api/badges/leroy-merlin-br/drone-ecr-registry-plugin/status.svg)](https://cloud.drone.io/leroy-merlin-br/drone-ecr-registry-plugin)
+
 # drone-ecr-repository-plugin
 
 Drone extension to support ECR repositories when pulling images
